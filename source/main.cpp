@@ -255,10 +255,10 @@ int main()
             DrawText("GAME OVER", windowDimensions[0]/2 - 120, windowDimensions[1]/2 - 20, 40, YELLOW);
         }
 
-        DrawText(FormatText("Velocity: %i", scarfyVelocity), 20, 20, 20, RED);
-        // DrawText(FormatText("DeltaTime: %i", deltaTime), 20, 40, 20, YELLOW);
-        // DrawText(FormatText("UpdateTime: %i", scarfyData.updateTime), 20, 60, 20, GREEN);
-        // DrawText(FormatText("RunningTime: %i", scarfyData.runningTime), 20, 80, 20, BLUE);
+        DrawText(TextFormat("Velocity: %i", scarfyVelocity), 20, 20, 20, RED);
+        // DrawText(TextFormat("DeltaTime: %i", deltaTime), 20, 40, 20, YELLOW);
+        // DrawText(TextFormat("UpdateTime: %i", scarfyData.updateTime), 20, 60, 20, GREEN);
+        // DrawText(TextFormat("RunningTime: %i", scarfyData.runningTime), 20, 80, 20, BLUE);
 
         // Game Logic Ends
         EndDrawing();
